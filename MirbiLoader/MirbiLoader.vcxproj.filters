@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Services">
+      <UniqueIdentifier>{e047ee71-9e7d-475f-a25a-1d8a576cd97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services\Headers">
+      <UniqueIdentifier>{e9b98308-7b3e-4e02-a736-32c334e9c484}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Loader.h">
+      <Filter>Services\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h" />
+  </ItemGroup>
+</Project>
